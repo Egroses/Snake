@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "265373262828",
+    "firebase_url": "https://mario-plan-974b5-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mario-plan-974b5",
+    "storage_bucket": "mario-plan-974b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265373262828:android:6c2e09747ff537b45196c9",
+        "android_client_info": {
+          "package_name": "com.Yilann.Yilan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265373262828-bjjnuncb2k6sh4ofs7uffteaqvncmpl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW8wwGOkhR8BK4QT1wnRyMkLiTIG6FtIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265373262828-bjjnuncb2k6sh4ofs7uffteaqvncmpl9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "265373262828-ph8thfq3mc4td165l3ouar65800toce8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Yilann.Yilan"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
