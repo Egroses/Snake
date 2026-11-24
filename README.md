@@ -1,36 +1,32 @@
-# SnakeGame
+# Snake
 
- ## About Game
-This is a endless runner game.
+Yılanın yem yedikçe seviye atladığı, engellere çarptıkça seviye kaybettiği bir koşu oyunu.
 
+![Oynanış](Images/Gameplay.png)
 
-   Basically;
+## Neden?
 
-  - User trying to eat all baits.
-  
-  - If user hasn't reached max level, the food snake eats will increase the level of snake. If user has reached max level, the amount of food to snake needs to eat descreases.
-  - User can see snake's level from snake's tail. 
+Klasik yılan oyununu, mobil koşu oyunlarındaki ilerle, topla ve engelden kaç yapısına uyarlamak için yapıldı.
 
-  - If snake touches any obstacle, the snake's level descreases.
-  
-  - while snake's level 1 if snake touches any obstacle, snake dies.
+## Oynanış
 
+- Yılan ileri doğru ilerliyor, oyuncu yoldaki tüm yemleri yemeye çalışıyor.
+- En üst seviyeye ulaşılmadıysa yenen yemler yılanın seviyesini artırıyor. En üst seviyeye ulaşıldıktan sonra bir sonraki seviye için gereken yem sayısı azalıyor.
+- Yılanın seviyesi kuyruğunda görünüyor.
+- Yılan bir engele çarparsa seviyesi düşüyor. Birinci seviyedeyken engele çarparsa ölüyor.
 
- You can see images from game.
- 
-## Images From Game
+## Ekranlar
 
-**Gameplay**\
-![](https://github.com/Egroses/Snake/blob/main/Images/Gameplay.png)
+| Kuyruktaki seviye | Engel |
+|---|---|
+| ![Kuyruk](Images/SnakeTail.png) | ![Engel](Images/Obstacle.png) |
+| **Kazanma** | **Tekrar dene** |
+| ![Kazanma](Images/Win.png) | ![Tekrar dene](Images/TryAgain.png) |
 
-**Snake Tail**\
-![](https://github.com/Egroses/Snake/blob/main/Images/SnakeTail.png)
+## Teknik
 
-**Obstacle**\
-![](https://github.com/Egroses/Snake/blob/main/Images/Obstacle.png)
-
-**Win**\
-![](https://github.com/Egroses/Snake/blob/main/Images/Win.png)
-
-**Try Again**\
-![](https://github.com/Egroses/Snake/blob/main/Images/TryAgain.png)
+| | |
+|---|---|
+| **Motor** | Unity 2021.3.7f1 |
+| **Kod** | `Assets/kodlar` (yılan hareketi, takip eden kuyruk, kamera, bölüm üretme) |
+| **GitHub'a yükleme** | Mart 2023 |
